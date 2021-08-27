@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Source Sans Pro, Verdana, Geneva, Tahoma, sans-serif;
+    color: seashell;
+}
+header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(161, 50, 50, 0.6));
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+header h2{
+    font-size: 5.3rem;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+header p{
+    font-size: 21px;
+    letter-spacing: 12px;
+    max-width: 80%;
+    margin: 1.7rem auto;
+    text-transform: uppercase;
+
+}
+header .btn{
+    text-decoration: none;
+    padding: 13px 30px;
+    background-color: crimson;
+    color: cyan;
+    font-size: 10px;
+    transition: all .4 ease;
+}
+article{
+    padding: 70px;
+    background: #222;
+}
+article p{
+    line-height: 36px;
+    font-size: 19px;
+}
